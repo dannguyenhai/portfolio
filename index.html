@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="container">
+        <header class="header">
+          <nav>
+            <a href="./index.html" class="logo"><span>Hai Dan</span></a>
+            <ul id="menuItem">
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#contain">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li>
+                <a href="https://www.facebook.com/nhd.1311" target="_blank"
+                  >Contract</a
+                >
+              </li>
+            </ul>
+            <a href="https://www.facebook.com/nhd.1311" target="_blank">
+              <button formtarget="_blank" class="button custom-btn btn-15">
+                Follow Me
+              </button></a
+            >
+            <img
+              src="./img/menu.png"
+              class="menu-icon"
+              onclick="menutoggle()"
+            />
+          </nav>
+        </header>
+        <div class="text-box">
+          <p>My name is</p>
+          <h1>NGUYEN HAI DAN</h1>
+          <h3>I'm front-end developer !</h3>
+          <div class="row">
+            <a href="#">Explore My Portfolio</a>
+            <a href="https://www.facebook.com/nhd.1311" target="_blank"
+              >Connect with me &#x27F6;</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Hobbies -->
+      <div id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="image-slider">
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+                alt=""
+              />
+            </div>
+            <h3 class="image-title">Cook at home</h3>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt=""
+              />
+            </div>
+            <h3 class="image-title">Play guitar</h3>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt=""
+              />
+            </div>
+            <h3 class="image-title">Code</h3>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1619017120498-872bb10a14a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt=""
+              />
+            </div>
+            <h3 class="image-title">League of legends</h3>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt=""
+              />
+            </div>
+            <h3 class="image-title">Listen to music</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Skills -->
+      <div id="contain">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/js.png" alt="" class="image-language" />
+            </div>
+            <p class="text">JavaScript</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/html.png" alt="" class="image-language" />
+            </div>
+            <p>HTML</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/css.png" alt="" class="image-language" />
+            </div>
+            <p>CSS</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/sass.png" alt="" class="image-language" />
+            </div>
+            <p>SASS</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/bootstrap.png" alt="" class="image-language" />
+            </div>
+            <p>Bootstrap</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/reactjs.png" alt="" class="image-language" />
+            </div>
+            <p>ReactJs</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/figma.png" alt="" class="image-language" />
+            </div>
+            <p>Figma</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/photoshop.png" alt="" class="image-language" />
+            </div>
+            <p>PhotoShop</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/github.png" alt="" class="image-language" />
+            </div>
+            <p>GitHub</p>
+          </div>
+          <div class="language-code">
+            <div class="language">
+              <img src="./img/git.png" alt="" class="image-language" />
+            </div>
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+      <!-- Projects -->
+      <div id="projects">
+        <h2>Projects</h2>
+        <div class="project-wrapper">
+          <div class="image-item">
+            <div class="image img-project">
+              <img src="img/flower-store.png" alt="" />
+            </div>
+
+            <a href="https://dannguyenhai.github.io/Flower-Store/" target="_blank"> <h3 class="image-title">Store Flower</h3></a>
+            <p class="text"></p>
+          </div>
+          <div class="image-item">
+            <div class="image img-project">
+              <img src="img/sport-store.png" alt="" />
+            </div>
+            <a href="https://dannguyenhai.github.io/store.github.io/" target="_blank"> <h3 class="image-title">Store Shoes</h3></a>
+            <p class="text"></p>
+          </div>
+          <div class="image-item">
+            <div class="image img-project">
+              <img src="img/flower-store.png" alt="" />
+            </div>
+            <a href=""> <h3 class="image-title">Code</h3></a>
+            <p class="text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
