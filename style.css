@@ -363,7 +363,8 @@ h2:hover::after {
   padding-bottom: 10px ;
   margin-bottom: 20px;
   color: ##fff;
-  font-size: 18px;
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -422,5 +423,18 @@ h2:hover::after {
     border: 2px solid #fff;
     text-align: center;
     border-radius: 10px;
+  }
+  .image-item .text{
+    width: 370px;
+    height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    padding-bottom: 10px ;
+    margin-bottom: 20px;
+    color: ##fff;
+    font-size: 16px;
+    margin-left: 10px;
   }
 }
