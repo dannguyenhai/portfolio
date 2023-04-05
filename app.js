@@ -7,6 +7,11 @@ function menutoggle() {
     menuItem.style.maxHeight = "0px";
   }
 }
+/* Sticky Navigation Bar */
+window.addEventListener("scroll",function(){
+  const header = this.document.querySelector("header");
+  header.classList.toggle("sticky",window.scrollY > 0);
+})
 /* slick slider */
 $(document).ready(function () {
   $(".image-slider").slick({
@@ -35,6 +40,9 @@ $(document).ready(function () {
       },
     ],
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
   });
 });
+/*  */
+
+
