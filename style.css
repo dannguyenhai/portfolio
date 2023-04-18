@@ -365,9 +365,10 @@ h2:hover::after {
   transform: scale(1.1);
 }
 .image-item .image-title {
-  color: #ffa857;
+  color: #201001;
   padding: 10px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 .image-item .text{
   width: 400px;
