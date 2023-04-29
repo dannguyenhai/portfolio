@@ -347,7 +347,7 @@ h2:hover::after {
 }
 .image-item {
   width: 400px;
-  height: auto;
+  height: 500px;
   overflow: hidden;
 }
 .img-project {
