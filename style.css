@@ -21,14 +21,12 @@ body {
   font-family: "Sora", sans-serif;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  --bgColorMenu : #1d1d27;
-  --duration: .7s;    
-  
+  --bgColorMenu: #1d1d27;
+  --duration: 0.7s;
 }
 .wrapper {
   max-width: 100vw;
   margin: 0 auto;
-  
 }
 .container {
   max-width: 100vw;
@@ -346,7 +344,6 @@ h2:hover::after {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .image-item {
   width: 400px;
@@ -370,17 +367,39 @@ h2:hover::after {
   margin-bottom: 20px;
   font-weight: 700;
 }
-.image-item .text{
+.image-item .text {
   width: 400px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  padding-bottom: 10px ;
+  padding-bottom: 10px;
   margin-bottom: 20px;
   color: ##fff;
   font-size: 16px;
   margin-left: 10px;
+}
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+  padding: 50px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  background-color: #1a1c20;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 850px) {
@@ -440,14 +459,14 @@ h2:hover::after {
     text-align: center;
     border-radius: 10px;
   }
-  .image-item .text{
+  .image-item .text {
     width: 370px;
     height: 100px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
     margin-bottom: 20px;
     color: ##fff;
     font-size: 16px;
@@ -455,4 +474,3 @@ h2:hover::after {
   }
 }
 /* test */
-
