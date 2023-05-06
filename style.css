@@ -198,6 +198,7 @@ span {
 /* Slick-slider */
 #hobbies {
   background-image: url(./img/blur.png);
+  overflow: overlay;
 }
 h2 {
   display: flex;
@@ -337,6 +338,7 @@ h2:hover::after {
   width: 100%;
   height: auto;
   margin-top: 50px;
+  overflow: overlay;
   /* margin-bottom: 50px; */
 }
 .project-wrapper {
@@ -344,6 +346,7 @@ h2:hover::after {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  overflow: overlay;
 }
 .image-item {
   width: 400px;
